@@ -87,14 +87,14 @@ Protegida: Las variables o métodos protegidos son accesibles desde la clase en 
 
 
 # Ejercicio 4 (3 puntos) Tiempo estimado: 60 minutos.
-# El juego hundir la flota, conocido en el mundo anglosajón por su nombre en inglés battleship, es un juego tradicional de estrategia y algo de suerte, que involucra a dos participantes. En este ejercicio, vamos a hacer una versión programada en Java para que dos jugadores puedan jugar a este juego. La aplicación va a comenzar permitiendo que cada jugador posicione sus barcos en un único tablero. Cada jugador va a ocupar, según sus preferencias, una misma cantidad de casillas, horizontal y/o verticalmente, en base a las casillas sobre las cuales están representadas sus naves. Cada jugador va a posicionar como máximo 3 barcos. Así, por ejemplo, cinco casillas consecutivas conforman un portaaviones; tres, una fragata; y una casilla aislada, una canoa. No es necesario implementar el docString correspondiente a las funciones y métodos desarrollados, aunque se recomienda hacer el diagrama de flujo de los métodos en papel de forma previa a su resolución.
+__El juego hundir la flota, conocido en el mundo anglosajón por su nombre en inglés battleship, es un juego tradicional de estrategia y algo de suerte, que involucra a dos participantes. En este ejercicio, vamos a hacer una versión programada en Java para que dos jugadores puedan jugar a este juego. La aplicación va a comenzar permitiendo que cada jugador posicione sus barcos en un único tablero. Cada jugador va a ocupar, según sus preferencias, una misma cantidad de casillas, horizontal y/o verticalmente, en base a las casillas sobre las cuales están representadas sus naves. Cada jugador va a posicionar como máximo 3 barcos. Así, por ejemplo, cinco casillas consecutivas conforman un portaaviones; tres, una fragata; y una casilla aislada, una canoa. No es necesario implementar el docString correspondiente a las funciones y métodos desarrollados, aunque se recomienda hacer el diagrama de flujo de los métodos en papel de forma previa a su resolución.__
 
-__En base a estas especificaciones se solicita que:
+__En base a estas especificaciones se solicita que:__
 
 __a) Programe la clase enumearada CardinalPoints, que contendrá los puntos cardinales: NORTH, EAST,
-SOUTH y WEST, por este orden.
+SOUTH y WEST, por este orden.__
 
-__b) Programe la clase Ship.
+__b) Programe la clase Ship.__
 
 • Incluya los atributos de esta clase atributos y establezca la visibilidad adecuada (público,
 privado, protegido). Se aconseja utilizar un punto de partida, el tamaño y el enumerado
@@ -123,7 +123,7 @@ Se facilitan también los archivos vacios dónde deberían estar implementadas l
 y que tienen que ser completadas por el alumno. En dichas clases, están ya añadidos los casos de
 tests de cada una de ellas.
 
-__c) Programe una clase User.
+__c) Programe una clase User.__
 
 • Incluya los atributos de esta clase y establezca la visibilidad adecuada (público, privado,
 protegido).
@@ -158,9 +158,9 @@ tamaño fijo de cada uno de ellos.
 
 
 # Ejercicio 5 (1 punto) Tiempo estimado: 20 minutos.
-# Se propone una extensión del juego hundir la flota en la que, en vez de jugar con un solo tipo de barco, se pueda jugar con tres tipos de barcos diferentes. Estos tres tipos diferentes de barcos van a ser acorazados (Battleship), fragatas (Frigates), y canoas (Canoes). 
+__Se propone una extensión del juego hundir la flota en la que, en vez de jugar con un solo tipo de barco, se pueda jugar con tres tipos de barcos diferentes. Estos tres tipos diferentes de barcos van a ser acorazados (Battleship), fragatas (Frigates), y canoas (Canoes).__ 
 
-__En base a estas especificaciones se solicita que:
+__En base a estas especificaciones se solicita que:__
 
 Programe una clase Battleship. Este barco es grande y fuerte con un tamaño fijo (es decir, su tamaño
 va a ser igual a 5 posiciones del tablero). Además, este barco especial tiene contenedores aislados,
@@ -180,7 +180,7 @@ aunque se recomienda hacerlo para facilitar la comprensión por parte del estudi
 
 
 # Ejercicio 6 (1,5 puntos) Tiempo estimado: 20 minutos.
-# En este ejercicio se pide que se implemente el módulo principal del juego hundir la flota. Este módulo va a implementar la partida que van a jugar los jugadores.
+__En este ejercicio se pide que se implemente el módulo principal del juego hundir la flota. Este módulo va a implementar la partida que van a jugar los jugadores.__
 
 En este módulo main, lo primero que se hace es obtener la configuración deseada de los barcos por
 parte de cada usuario sobre el tablero. Hay que tener en cuenta, que cada usuario solamente va a
@@ -203,34 +203,34 @@ user1 (o viceversa).
 
 
 # Ejercicio 7 (1,5 Puntos) Tiempo estimado: 20 minutos
-# Escribir un algoritmo que permita utilizar tres tablas hash para guardar los datos de barcos, que contemple las siguientes actividades:
+__Escribir un algoritmo que permita utilizar tres tablas hash para guardar los datos de barcos, que contemple las siguientes actividades:__
 
 __a. En la primera tabla hash la función hash debe ser sobre el tipo de barco, en la segunda tabla la
 función hash deberá utilizar el número del barco como clave, mientras que en la tercera el campo
-clave de la función hash será por el nombre del barco.
+clave de la función hash será por el nombre del barco.__
 
 __b. El tamaño de la primera tabla debe ser lo suficientemente grande como para que pueda
 almacenar todos los distintos tipos de barcos, debe manejar las colisiones con alguna función de
-sondeo.
+sondeo.__
 
-__c. El tamaño de cada una de las segundas tablas debe ser 15.
+__c. El tamaño de cada una de las segundas tablas debe ser 15.__
 
 __d. El algoritmo debe permitir cargar tipos de barcos en la primera tabla y crear su respectiva segunda
-tabla, en el caso de que no exista.
+tabla, en el caso de que no exista.__
 
 __e. Si el barco es de más de un tipo deberá cargarlo en cada una de las tablas que indiquen estos
-tipos.
+tipos.__
 
 __f. Deberá permitir cargar barcos de los cuales se dispone de su número, nombre, tipo y nivel.
 
 
 # Ejercicio 8 (1,5 Puntos) Tiempo estimado: 20 minutos
-# Implementar un grafo no dirigido que permita cargar puertos y las aristas que conecten dichos puertos, que permita resolver las siguientes tareas:
+__Implementar un grafo no dirigido que permita cargar puertos y las aristas que conecten dichos puertos, que permita resolver las siguientes tareas:__
 
-__a. cada arista debe tener la distancia que separa dichos puertos;
+__a. cada arista debe tener la distancia que separa dichos puertos;__
 
-__b. realizar un barrido en profundidad desde el primer puerto en el grafo;
+__b. realizar un barrido en profundidad desde el primer puerto en el grafo;__
 
-__c. determinar el camino más corto desde puerto Madero al puerto de Rodas;
+__c. determinar el camino más corto desde puerto Madero al puerto de Rodas;__
 
-__d. determinar el puerto con mayor número de aristas y eliminarlo.
+__d. determinar el puerto con mayor número de aristas y eliminarlo.__
