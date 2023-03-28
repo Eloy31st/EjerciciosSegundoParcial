@@ -14,12 +14,14 @@ La calificación máxima de esta parte tipo test es de 1 punto. Tenga en cuenta 
 • Las preguntas no contestadas ni suman ni restan puntuación.
 
 1) Los elementos que definen a un objeto son:
+2) 
 a) El tipo de visibilidad que tiene asignado: privado o público.
 
 b) La identidad, Los atributos que representan su estado y los métodos que representan su
 comportamiento.
 
 2) El hecho de que un método pueda recibir un número variable de atributos se denomina:
+
 a) Herencia
 
 b) Polimorfismo
