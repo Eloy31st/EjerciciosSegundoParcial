@@ -73,3 +73,17 @@ Polimorfismo: Es la capacidad de diferentes objetos utilizar un mismo método de
 
 Clases y objetos: La POO se basa en la creación de clases y objetos. Las clases son plantillas para crear objetos y contienen atributos y métodos que definen las características y comportamientos de los objetos.
 
+
+# Ejercicio 3 (0.5 puntos): 5 minutos.
+# ¿Qué es la visibilidad de una variable o un método? ¿Qué tipos hay? ¿Cuándo debe utilizarse cada tipo?
+
+La visibilidad de una variable o un método en programación orientada a objetos se refiere a sus límites de quien puede utilizarlo. L  os tipos más comunes son los siguientes:
+
+Pública: Las variables o métodos públicos son accesibles desde cualquier lugar del programa. Se utilizan cuando se desea que los datos o funcionalidades sean accesibles desde cualquier clase o módulo.
+
+Privada: Las variables o métodos privados solo son accesibles desde la clase en la que se definen. Se utilizan para ocultar detalles internos de una clase y prevenir que se acceda a ellos desde fuera de la misma.
+
+Protegida: Las variables o métodos protegidos son accesibles desde la clase en la que se definen y sus subclases (heredadas). Se utilizan cuando se desea que los datos o funcionalidades sean accesibles solo desde la clase y sus subclases.
+
+
+
