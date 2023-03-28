@@ -56,3 +56,20 @@ obtener el mayor rendimiento posible.
 b) Se favorece la semántica y la reutilización de código en detrimento del rendimiento. 
 
 Respuesta: b
+
+
+# Ejercicio 2 (0,5 punto): 5 minutos.
+# ¿Cuáles son las características de la programación orientada a objetos?
+
+Algunas de las características principales de la POO son:
+
+Encapsulamiento: Es la acción de ocultar los detalles internos de una clase y solo exponer una interfaz pública para que los usuarios interactúen con ella. Permite que el código sea más fácil de mantener y evita que los usuarios cambien el código.
+
+Abstracción: Permite modelar objetos del mundo real como entidades con características y comportamientos específicos, transformando la realidad en un código ejecutable.
+
+Herencia: Es la capacidad de crear nuevas clases basadas en una clase existente, heredando sus atributos y métodos y permitiendo la reutilización de código.
+
+Polimorfismo: Es la capacidad de diferentes objetos utilizar un mismo método de manera diferente. Permite a los programadores escribir código más genérico y flexible.
+
+Clases y objetos: La POO se basa en la creación de clases y objetos. Las clases son plantillas para crear objetos y contienen atributos y métodos que definen las características y comportamientos de los objetos.
+
