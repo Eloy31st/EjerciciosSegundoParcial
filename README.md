@@ -199,7 +199,7 @@ implementar todos los componentes de este juego.
 El diagrama de flujo de este módulo principal le ha sido proporcionado a modo de guía.
 
 __- La acción One User attacks es realmente el ataque secuencial de User1 a user2 y de user2 a
-user1 (o viceversa).
+user1 (o viceversa).__
 
 
 # Ejercicio 7 (1,5 Puntos) Tiempo estimado: 20 minutos
@@ -221,7 +221,7 @@ tabla, en el caso de que no exista.__
 __e. Si el barco es de más de un tipo deberá cargarlo en cada una de las tablas que indiquen estos
 tipos.__
 
-__f. Deberá permitir cargar barcos de los cuales se dispone de su número, nombre, tipo y nivel.
+__f. Deberá permitir cargar barcos de los cuales se dispone de su número, nombre, tipo y nivel.__
 
 
 # Ejercicio 8 (1,5 Puntos) Tiempo estimado: 20 minutos
