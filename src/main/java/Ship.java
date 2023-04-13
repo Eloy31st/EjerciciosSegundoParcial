@@ -1,11 +1,11 @@
 import java.awt.*;
 
 public class Ship {
-    private CardinalPoints direccion;
-    private int tamano;
-    private int numTocado;
-    private Point puntoInicio;
-    private Point puntoFinal;
+    protected CardinalPoints direccion;
+    protected int tamano;
+    protected int numTocado;
+    protected Point puntoInicio;
+    protected Point puntoFinal;
 
     public Ship(int tamano, Point puntoInicio, Point puntoFinal) {
         this.tamano = tamano;
