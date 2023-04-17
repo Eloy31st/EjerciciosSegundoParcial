@@ -41,6 +41,13 @@ public class User {
         }
         if(user.get_Shot(shot)){
             System.out.println("Un barco ha sido tocado");
+            for (int i = 0; i < user.getShips().size(); i++) {
+                if(user.getShips().get(i).is_Sunk()){
+                    System.out.println("Un barco ha sido hundido");
+                    user.getShips().remove(i);
+                    user.comprobarVida();
+                }
+            }
             return true;
         } else{
             System.out.println("Agua");
@@ -52,12 +59,14 @@ public class User {
         for(int i = 0; i < ships.size(); i++){
             if(ships.get(i).get_Shot(shot)){
                 Touched = true;
-                if(ships.get(i).is_Sunk()){
-                    System.out.println("Un barco ha sido hundido");
-                    ships.remove(i);
-                }
             }
         }
         return Touched;
+    }
+
+    public void comprobarVida(){
+        if(ships.size() == 0){
+            this.die();
+        }
     }
 }

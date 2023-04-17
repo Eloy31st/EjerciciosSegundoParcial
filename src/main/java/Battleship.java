@@ -10,18 +10,20 @@ public class Battleship extends Ship{
     @Override
     public boolean get_Shot(Point shot){
         if(shot == null){
-            throw new IllegalArgumentException("El punto no puede ser nulo");
-        }
-        if(!puntosTocado.contains(shot)){
-            if(super.get_Shot(shot)){
-                puntosTocado.add(shot);
-                return true;
-            } else{
-                return false;
-            }
+            System.out.println("El punto no puede ser nulo");
         }else{
-            throw new IllegalArgumentException("El punto ya ha sido tocado");
+            if(!puntosTocado.contains(shot)){
+                if(super.get_Shot(shot)){
+                    puntosTocado.add(shot);
+                    return true;
+                } else{
+                    return false;
+                }
+            }else{
+                System.out.println("El punto ya ha sido tocado");
+            }
         }
+        return false;
     }
 
     @Override
