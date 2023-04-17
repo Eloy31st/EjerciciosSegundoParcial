@@ -8,7 +8,6 @@ public class Ship {
     protected Point puntoFinal;
 
     public Ship(int tamano, Point puntoInicio, Point puntoFinal) {
-        this.tamano = tamano;
         this.puntoInicio = puntoInicio;
         this.puntoFinal = puntoFinal;
         this.numTocado = 0;
@@ -26,6 +25,11 @@ public class Ship {
             }
         } else {
             throw new IllegalArgumentException("Los puntos no forman una linea recta");
+        }
+        if (comprobarTamaño()==tamano){
+            this.tamano = tamano;
+        } else{
+            throw new IllegalArgumentException("El tamaño no es correcto");
         }
 
     }
@@ -97,6 +101,14 @@ public class Ship {
     }
     public boolean ship_Straight(){
         return this.puntoInicio.getX() == this.puntoFinal.getX() || this.puntoInicio.getY() == this.puntoFinal.getY();
+    }
+
+    public int comprobarTamaño(){
+        if(this.puntoInicio.getX() == this.puntoFinal.getX()){
+            return (int) Math.abs(this.puntoInicio.getY() - this.puntoFinal.getY()) + 1;
+        }else{
+            return (int) Math.abs(this.puntoInicio.getX() - this.puntoFinal.getX()) + 1;
+        }
     }
 
 }
