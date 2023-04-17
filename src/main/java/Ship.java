@@ -10,6 +10,7 @@ public class Ship {
     public Ship(int tamano, Point puntoInicio, Point puntoFinal) {
         this.tamano = tamano;
         this.puntoInicio = puntoInicio;
+        this.puntoFinal = puntoFinal;
         this.numTocado = 0;
         if (puntoInicio.getX() == puntoFinal.getX()) {
             if (puntoInicio.getY() < puntoFinal.getY()) {
@@ -93,6 +94,9 @@ public class Ship {
             }
         }
         return false;
+    }
+    public boolean ship_Straight(){
+        return this.puntoInicio.getX() == this.puntoFinal.getX() || this.puntoInicio.getY() == this.puntoFinal.getY();
     }
 
 }
